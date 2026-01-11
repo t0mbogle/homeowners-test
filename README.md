@@ -1,5 +1,10 @@
 # Homeowners
 
+## Requirements
+
+- PHP 8.2 or higher
+- Composer
+
 ## Getting started
 
 Start server with `php -S 127.0.0.1:8000`
@@ -7,8 +12,6 @@ Start server with `php -S 127.0.0.1:8000`
 Then in your chosen browser navigate to http://localhost:8000/server/HomeownersController.php to see the output.
 
 ## Tests
-
-If composer is not installed, you will need to install composer before being able to run the test suite.
 
 Cd into `/server` folder
 
