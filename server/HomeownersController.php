@@ -7,9 +7,9 @@ require_once 'NormalizeHomeowners.php';
 final class HomeownersController
 {
   public function __construct(
-    public readonly ParseCSV $parser,
-    public readonly HomeownersFilter $filter,
-    public readonly NormalizeHomeowners $normalizer,
+    private readonly ParseCSV $parser,
+    private readonly HomeownersFilter $filter,
+    private readonly NormalizeHomeowners $normalizer,
   ) {
   }
 
