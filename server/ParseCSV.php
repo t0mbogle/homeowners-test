@@ -2,7 +2,7 @@
 
 final class ParseCSV
 {
-  public function parseCSV()
+  public function parseCSV(): array
   {
     $csv = fopen("./examples.csv", "r", ",");
 

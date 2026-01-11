@@ -2,7 +2,7 @@
 
 final class NormalizeHomeowners
 {
-  public function normalize(array $homeOwners)
+  public function normalize(array $homeOwners): array
   {
     $normalizedHomeowners = [];
 
